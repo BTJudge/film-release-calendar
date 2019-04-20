@@ -1,0 +1,36 @@
+*
+  box-sizing: border-box
+  margin: 0
+
+body
+  padding: 50px
+  font-family: Montserrat, sans-serif
+  background: rgb(10, 10, 21)
+  background: radial-gradient(circle at bottom, rgb(10, 10, 21) 0%, rgba(0,0,0,1) 100%)
+  background-repeat: no-repeat
+  background-size: cover
+  color: #fbfbfb
+  height: 100vh
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+#loading__subheading
+  margin-bottom: 1em
+
+// The Loader Animation
+#loading__loader
+  border: 8px solid rgba(0,0,0,0)
+  border-top: 8px solid #797c84
+  border-radius: 50%
+  width: 10vh
+  height: 10vh
+  animation: spin 1s cubic-bezier(0.68, -0.55, 0.265, 1.55) infinite
+  opacity: 0.2
+
+@keyframes spin
+  0%
+    transform: rotate(0deg)
+  100%
+    transform: rotate(360deg)
