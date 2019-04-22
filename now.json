@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "builds": [
+    { "src": "bin/www.js", "use": "@now/node" },
+    { "src": "public", "use": "@now/static" }
+  ]
+}
