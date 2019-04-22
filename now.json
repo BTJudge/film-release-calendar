@@ -1,9 +1,0 @@
-{
-  "name": "imdb-uk-film-scraper",
-  "version": 2,
-  "public": true,
-  "builds": [
-    { "src": "**/*.js", "use": "@now/node-server" },
-    { "src": "./public", "use": "@now/static" }
-  ]
-}
