@@ -3,7 +3,7 @@
   "version": 2,
   "public": true,
   "builds": [
-    { "src": "bin/www.js", "use": "@now/node-server" },
+    { "src": "bin/index.js", "use": "@now/node-server" },
     { "src": "./public", "use": "@now/static" }
   ]
 }
