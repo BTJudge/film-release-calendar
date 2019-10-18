@@ -26,7 +26,7 @@ const imdb = {
                         let date = new Date(filmDate);
                         let year = date.getFullYear();
                         let month = date.getMonth() + 1;
-                        if (month.toString.length === 1) {
+                        if (month < 10) {
                             month = '0' + month;
                         }
                         let day = date.getDate();
@@ -35,7 +35,7 @@ const imdb = {
                         date2.setDate(date2.getDate() + 1);
                         let year2 = date2.getFullYear();
                         let month2 = date2.getMonth() + 1;
-                        if (month2.toString.length === 1) {
+                        if (month2 < 10) {
                             month2 = '0' + month2;
                         }
                         let day2 = date2.getDate();

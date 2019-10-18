@@ -77,3 +77,4 @@ typings/
 
 # Idea Files
 .idea/
+.vscode/launch.json
