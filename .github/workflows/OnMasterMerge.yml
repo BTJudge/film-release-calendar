@@ -1,4 +1,4 @@
-name: Node CI
+name: Build, Test and Deploy on Master Merge
 
 on: 
   pull_request:
@@ -22,7 +22,7 @@ jobs:
     - name: npm install and test
       run: |
         npm ci
-        npm test
+        npm run ci-test
     - name: Build and Deploy if successful
       if: success()
       run: |

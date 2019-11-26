@@ -18,7 +18,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --coverage",
-    "ci-test": "CI=true npm test",
+    "ci-test": "CI=true react-scripts test --no-watchman --all",
     "eject": "react-scripts eject",
     "deploy": "node ./deploy.js",
     "debugdeploy": "node --nolazy --inspect-brk=9229 ./deploy.js"
