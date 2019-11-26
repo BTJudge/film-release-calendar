@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: Montserrat, sans-serif;
+  background: rgb(26, 26, 26);
+  background: radial-gradient(circle at bottom, rgb(11, 11, 48) 0%, rgb(26, 26, 26) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fbfbfb;
+  height: 100vh;
+  margin: 0;
+}
