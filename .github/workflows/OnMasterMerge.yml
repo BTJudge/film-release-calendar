@@ -5,7 +5,7 @@ on:
     types: [closed]
 
 jobs:
-  build:
+  Build_Test_and_Deploy:
 
     runs-on: ubuntu-latest
 
