@@ -1,9 +1,9 @@
 interface IFilm {
-  filmIid: string,
-  filmName: string,
-  filmImage: string,
-  filmURL: string,
-  filmDate: string
+  id: string,
+  name: string,
+  image: string,
+  url: string,
+  date: string
 }
 
 export default class Film {
@@ -14,11 +14,11 @@ export default class Film {
   private date!: Date;
 
   constructor(film: IFilm) {
-    this.setId(film.filmIid);
-    this.setName(film.filmName);
-    this.setImage(film.filmImage);
-    this.setUrl(film.filmURL);
-    this.setDate(film.filmDate)
+    this.setId(film.id);
+    this.setName(film.name);
+    this.setImage(film.image);
+    this.setUrl(film.url);
+    this.setDate(film.date)
   }
 
   public getId(): string {
