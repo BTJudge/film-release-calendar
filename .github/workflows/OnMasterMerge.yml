@@ -5,7 +5,7 @@ on:
     types: [closed]
 
 jobs:
-  Build, Test and Deploy on Master Merge:
+  Build_Test_and_Deploy:
 
     runs-on: ubuntu-latest
 
